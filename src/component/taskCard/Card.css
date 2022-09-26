@@ -1,0 +1,46 @@
+.Card{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.botones button{
+    margin: 5px;
+}
+
+.Editar{
+    width: 100%;
+    background-color: green;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.Eliminar{
+    width: 100%;
+    background-color: #ff0000;
+    border: 0;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.info h1{
+    text-align: left;
+    margin: 3px;
+    text-shadow: -1px 1px 2px #000;
+}
+
+.info textarea{
+    color: #000;
+    resize: none;
+    border: 0;
+    height: 50px;
+}
